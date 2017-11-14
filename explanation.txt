@@ -1,1 +1,11 @@
-Put your Project 5 brief explanation, as directed, here.
+This code will fetch blog posts from the Tumblr API that are tagged with two separate the terms ("Machine Learning" OR "UX") and migrate these results to CSV. The Machine Learning output will be saved in "ML_tag_results.csv" and the UX output will be saved in "UX_tag_results.csv"
+
+For each blog post returned, I will be capturing:
+- Blog Name
+- Blog type
+- Post URL
+- Date
+- tags
+
+The records returned will be limited to 10 records each per search (and csv file). The base URL for accessing the API and searching via tag search terms is: api.tumblr.com/v2/tagged
+
